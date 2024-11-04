@@ -396,3 +396,25 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# Ignore Python files
+__pycache__/
+*.pyc
+# Fichiers Python
+*.pyc                # Fichiers de bytecode Python
+*.pyo                # Fichiers optimisés Python
+*.pyd                # Extensions Python pour Windows
+
+# Environnements virtuels
+env/                 # Environnement virtuel local
+venv/                # Autre nom commun pour un environnement virtuel
+.venv/               # Environnement virtuel caché
+
+# Dossiers générés par les installations de packages
+*.egg-info/         # Dossiers d'informations sur les packages
+dist/               # Dossier contenant les distributions
+build/              # Dossier de construction
+
+# Fichiers de base de données
+*.sqlite3           # Fichiers de base de données SQLite
+*.db                 # Fichiers de base de données généraux
+
